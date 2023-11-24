@@ -45,7 +45,7 @@ const UploadBook = () => {
 
       //send data to database
 
-      fetch("https://mern-inventory-managment-system-nytbaszqa.vercel.app/upload-book", {
+      fetch("http://localhost:8080/upload-book", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
