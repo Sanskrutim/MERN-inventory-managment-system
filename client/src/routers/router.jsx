@@ -39,7 +39,7 @@ const router = createBrowserRouter([
             {
                 path:"/book/:id",
                 element:<SingleBook/>,
-                loader:({params})=> fetch(`https://mern-inventory-managment-system-nytbaszqa.vercel.app/book/${params.id}`)
+                loader:({params})=> fetch(`http://localhost:8080/book/${params.id}`)
             }
 
         ]
@@ -66,7 +66,7 @@ const router = createBrowserRouter([
                 
                 path:"/admin/dashboard/edit-books/:id",
                 element:<EditBooks/>,
-                loader: ({params}) => fetch(`https://mern-inventory-managment-system-nytbaszqa.vercel.app/book/${params.id}`)
+                loader: ({params}) => fetch(`http://localhost:8080/book/${params.id}`)
             },
             
             
