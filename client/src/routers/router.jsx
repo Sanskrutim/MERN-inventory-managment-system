@@ -4,7 +4,7 @@ import App from "../App.jsx";
 import Home from "../Home/Home.jsx";
 import Shop from "../Shop/Shop.jsx";
 import SingleBook from "../Shop/SingleBook.jsx";
-import About from "../components/ABOUT.JSX";
+import About from "../components/About.jsx";
 import { DashboardLayout } from "../Dashboard/DashboardLayout.jsx";
 import { Dashboard } from "../Dashboard/Dashboard.jsx";
 import UploadBook from "../Dashboard/UploadBook.jsx";
