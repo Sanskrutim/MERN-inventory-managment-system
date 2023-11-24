@@ -48,7 +48,7 @@ const EditBooks = () => {
         //   console.log(bookObj);
     
           //send data to database
-          fetch(`https://mern-inventory-managment-system-nytbaszqa.vercel.app/book/${id}`, {
+          fetch(`http://localhost:8080/book/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"
