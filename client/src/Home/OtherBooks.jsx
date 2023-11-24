@@ -7,7 +7,7 @@ const OtherBooks = () => {
         const [books, setBooks] = useState([]);
     
         useEffect( () => {
-            fetch("https://mern-inventory-managment-system-nytbaszqa.vercel.app/all-books").then(res => res.json()).then(data => setBooks(data.slice(0,8)))
+            fetch("http://localhost:8080/all-books").then(res => res.json()).then(data => setBooks(data.slice(0,8)))
         }, [])
       return (
         <BookCards books={books} headline="Other books"/>
