@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.get("/",(req,res)=>{
 
-    res.send('pagal akrke rakha hai')
+    res.send('server is running')
 })
 
 
