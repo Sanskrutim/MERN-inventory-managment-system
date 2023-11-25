@@ -8,7 +8,13 @@ const cors = require("cors")
 
 
 // midddleware 
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://mern-inventory-managment-system-pvgp.vercel.app"],
+        methods:["POST","GET"],
+        credentials: true
+    }
+));
 app.use(express.json());
 
 app.get("/",(req,res)=>{
