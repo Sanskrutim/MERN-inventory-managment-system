@@ -10,7 +10,7 @@ const cors = require("cors")
 // midddleware 
 app.use(cors(
     {
-        origin: ["https://mern-inventory-managment-system.vercel.app"],
+        origin: [""],
         methods:["POST","GET"],
         credentials: true
     }
