@@ -5,7 +5,7 @@ const Shop = () => {
   const [books,setBooks]= useState([]);
 
   useEffect(()=>{
-    fetch("https://mern-inventory-managment-system-server.vercel.app/all-books").then(res=> res.json()).then(data=> setBooks(data));
+    fetch("https://mern-backend-ys3qkr446-amanverma2202.vercel.app/all-books").then(res=> res.json()).then(data=> setBooks(data));
   },[])
 
   
